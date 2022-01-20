@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Alfa Slab One", cursive;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: xx-large;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: large;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+p,
+li {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  max-width: 1400px;
+  padding: 48px 16px;
+  background-color: #ccd9ff;
+  text-align: center;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+}
