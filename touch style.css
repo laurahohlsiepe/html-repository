@@ -1,3 +1,5 @@
+*,
+*::before,
 *::after {
   box-sizing: border-box;
   border-top: 7px;
@@ -8,6 +10,15 @@ body {
   margin: 0px;
   text-align: center;
   background-color: rgba(252, 250, 253, 0.781);
+}
+
+::selection {
+  background-color: pink;
+  color: chartreuse;
+}
+
+h2::after {
+  content: " 🪄 ";
 }
 
 h1 {
@@ -52,7 +63,7 @@ main {
 }
 
 .mail:hover {
-  background-color: steelblue;
+  background-color: skyblue;
 }
 
 .mail {
@@ -72,7 +83,7 @@ main {
 }
 
 .contact:hover {
-  background-color: steelblue;
+  background-color: skyblue;
 }
 
 .nav-link {
