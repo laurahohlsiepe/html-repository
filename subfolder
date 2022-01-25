@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Document</title>
+  </head>
+  <header>
+    <h1>Document</h1>
+    <blockquote>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam numquam
+      explicabo eveniet aliquid nesciunt. Sequi repudiandae sit ratione, error
+      ex possimus qui, reprehenderit voluptatem labore minima tempora repellat
+      repellendus nostrum.
+    </blockquote>
+    <small
+      >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, excepturi.
+      Deleniti accusantium possimus odit iste ullam neque architecto eos! Sit
+      accusamus eum eligendi sint ullam qui a repellendus, placeat
+      veritatis?</small
+    >
+  </header>
+  <body>
+    <article>
+      <h2>Introduction</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+        dicta debitis a, commodi at quod ipsa magni omnis facere, est eaque
+        unde! Dolore quis omnis aliquam nulla cumque quos nisi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, ipsam
+        alias ut corrupti optio maxime? Aut, dolorum suscipit maiores minus quos
+        vero, eveniet optio rem quasi sunt, culpa et aspernatur.
+      </p>
+    </article>
+    <article>
+        <p>
+      <h2>Experience</h2>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </p>
+    </article>
+    <article>
+      <h2>Contact</h2>
+      <ol>
+        <li>Linkedin</li>
+        <li>Twitter</li>
+        <li>Xing</li>
+      </ol>
+    </article>
+  </body>
+</html>
