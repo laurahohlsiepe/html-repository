@@ -6,9 +6,14 @@
   border-bottom: 15px;
 }
 
+html {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  margin: 0px;
-  text-align: center;
+  margin: 0 auto;
   background-color: rgba(252, 250, 253, 0.781);
 }
 
@@ -28,12 +33,15 @@ h1 {
 h2 {
   font-family: "Nunito", sans-serif;
   font-size: xx-large;
+  position: relative;
+  right: 5px;
 }
 
 h3 {
   font-family: "Nunito", sans-serif;
   font-size: large;
   text-decoration: underline;
+  left: 20px;
 }
 
 p,
@@ -49,9 +57,26 @@ header {
 }
 
 main {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 16px;
+}
+
+.hire-me {
+  position: absolute;
+  right: 16px;
+  top: 5px;
+  background-color: blueviolet;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.experience-heading {
+  display: inline;
+}
+
+.experience-subheading {
+  display: inline-block;
 }
 
 .main > * {
