@@ -8,6 +8,7 @@
 
 html {
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
@@ -34,14 +35,14 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-size: xx-large;
   position: relative;
-  right: 5px;
+  right: 0.4rem;
 }
 
 h3 {
   font-family: "Nunito", sans-serif;
   font-size: large;
   text-decoration: underline;
-  left: 20px;
+  left: 1rem;
 }
 
 p,
@@ -50,25 +51,38 @@ li {
 }
 
 header {
-  max-width: 1400px;
-  padding: 48px 16px;
+  max-width: 300rem;
+  padding: 3rem 1rem;
   background-color: #ccd9ff;
   text-align: center;
 }
 
 main {
-  max-width: 500px;
+  max-width: 60ch;
   margin: 0 auto;
-  padding: 16px;
+  padding: 1rem;
+  max-width: 45ch;
+}
+
+.heading-group {
+  font-size: 1rem;
+}
+
+.subheading-group {
+  font-size: 1.5em;
+}
+
+.subheading-group2 {
+  font-size: 1em;
 }
 
 .hire-me {
   position: absolute;
-  right: 16px;
-  top: 5px;
+  right: 1rem;
+  top: 0.25rem;
   background-color: blueviolet;
-  padding: 5px;
-  border-radius: 4px;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
 }
 
 .experience-heading {
@@ -80,11 +94,15 @@ main {
 }
 
 .main > * {
-  border-top: 6px solid silver;
+  border-top: 0.3rem solid silver;
 }
 
 .main > *:first-child {
   border-top: none;
+}
+
+.main > * + * {
+  margin-top: 3rem;
 }
 
 .mail:hover {
@@ -113,6 +131,7 @@ main {
 
 .nav-link {
   color: darkgray;
+  padding: 0.25rem 0.5rem;
 }
 
 .nav-link:hover {
@@ -124,5 +143,5 @@ main {
 }
 
 .nav-link + .nav-link {
-  margin-left: 40px;
+  margin-left: 5rem;
 }
