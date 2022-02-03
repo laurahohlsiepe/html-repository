@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-top: 7px;
+  border-bottom: 15px;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(252, 250, 253, 0.781);
+}
+
+::selection {
+  background-color: pink;
+  color: chartreuse;
+}
+
+h2::after {
+  content: " 🪄 ";
+}
+
+h1 {
+  font-family: "Alfa Slab One", cursive;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: xx-large;
+  position: relative;
+  right: 0.4rem;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  left: 1rem;
+}
+
+p,
+li {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 3rem 1rem;
+  padding-top: 4.5rem;
+  background-image: linear-gradient(#ccd9ff 50%, #ffe6ff);
+  text-align: center;
+  width: auto;
+}
+
+main {
+  max-width: 60ch;
+  margin: auto;
+  padding: 2rem;
+}
+
+article {
+  margin-bottom: -3rem;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+.footer {
+  position:absolute;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-image: linear-gradient(#99c2ff, #b3b3ff);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-group {
+  font-size: 1rem;
+}
+
+.subheading-group {
+  font-size: 1.5em;
+}
+
+.subheading-group2 {
+  font-size: 1em;
+}
+
+.hire-me {
+  position: absolute;
+  right: 1rem;
+  top: 0.25rem;
+  background-color: blueviolet;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.experience-heading {
+  display: inline;
+}
+
+.experience-subheading {
+  display: inline-block;
+}
+
+.section-contact {
+    margin-left: 4rem;
+}
+
+.main > * {
+  border-top: 0.3rem solid silver;
+}
+
+.main-article-heading {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.main > *:first-child {
+  border-top: none;
+}
+
+.main > * + * {
+  margin-top: 3rem;
+}
+
+.mail:hover {
+  background-color: skyblue;
+}
+
+.mail {
+  color: rgb(156, 64, 78);
+}
+
+.mail:visited {
+  color: rgb(156, 64, 78);
+}
+
+.contact {
+  color: darkcyan;
+}
+
+.contact:visited {
+  color: rgb(156, 64, 78);
+}
+
+.contact:hover {
+  background-color: skyblue;
+}
+
+.nav-link {
+  color: darkgray;
+  padding: 0.25rem 0.5rem;
+}
+
+.nav-link:hover {
+  background-color: #ffff1a;
+}
+
+.nav-link:active {
+  background-color: honeydew;
+}
+
+.nav-link + .nav-link {
+  margin-left: 5rem;
+}
+
+@media screen and (min-width: 786px) {
+  html {
+    font-size: 18px;
+  }
+  .hire-me {
+    position: fixed;
+  }
+
+  .main > * + * {
+    margin-top: 5rem;
+  }
+
+  .main-article {
+      display: grid;
+      grid-template-columns: 1fr 0.25fr;
+  }
+
+  .main-article-content {
+    margin-top: 2rem;
+    margin-left: 5rem ;
+  }
+
+  .main-article-heading {
+    position: relative;
+    left: -1rem;
+  }
+}
+
+@media and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media print {
+  .navigation {
+    visibility: hidden;
+  }
+  .hire-me {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 768px) {
+  .experience-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
